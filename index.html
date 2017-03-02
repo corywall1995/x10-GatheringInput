@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <title>Gethering Input</title>
     <script lang="javascript">
-
+      function getName() {
+        var fullName;
+        fullName = document.getElementById("first").value;
+        document.getElementById("message").innerHTML = fullName;
+      }
     </script>
   </head>
 
